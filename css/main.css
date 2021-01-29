@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('../font/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('..font/greatvibes-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.hidden{
+	display: none;
+}
+
+html, body{ 
+	height: 100%;
+	width: 100%;
+	background-color: black;
+
+
+}
+
+
+h1{
+	font-family: 'Noto Serif', Arial ,sans-serif;
+	font-size: 9rem;
+	font-weight: 700;
+	color: white;
+}
+ 
+    
+.content_1{
+	background-image: url(../images/beer_dispenser.jpg);
+	height: 100%;
+	position: relative;
+	opacity: .9;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.heading{
+	position: absolute;
+	top: 50%;
+	width:100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+
+}
+
+.welcome{
+	text-align: center;
+	padding: 50px 100px;
+    background: linear-gradient(to right, rgba(82,83,83,0), rgba(137,138,138,.5), rgba(253,238,10, .8));
+    background-size: 200%;
+    transition: background-position .5s;  
+    background-color: transparent; 
+
+}
+.welcome:hover {
+    background-position: 100% 0;    
+}
+
+
+.welcome p{
+	font-size: 5rem;
+	font-family: 'great_vibesregular', Arial ,sans-serif;
+	letter-spacing: 1rem;
+	text-shadow: 1px 1px 2px black, 0 0 1em yellow, 0 0 0.2em yellow;
+}
+
+
+
+
+.content_2{
+	background-image: url(../images/drinking_glass.jpg);
+	height: 100%;
+	position: relative;
+	opacity: .9;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.heading_2{
+	position: absolute;
+	top: 50%;
+	width:90%;
+	text-align: center;
+	color: #000;
+	padding: 50px 80px;
+	overflow: hidden;
+	font-family: 'Noto Serif', Arial ,sans-serif;
+
+}
+
+.heading_2 h2{
+	color: #525353;
+	font-size: 5rem;
+	font-family: 'great_vibesregular', Arial ,sans-serif;
+	letter-spacing: .8rem;
+	text-shadow: 2px 2px black;
+}
+.heading_2 p{
+	padding-top: 30px;
+	line-height: 2rem;
+}
+.heading_2 p::first-letter {
+  font-size: 300%;
+  color: #525353;
+}
+
+
+
+h2{
+	font-family: 'great_vibesregular', Arial ,sans-serif;
+	font-size: 3rem;
+	letter-spacing: 0.7rem;
+	font-weight: 900;
+	color: #525353;
+	text-align: center;
+	text-shadow: 2px 2px white;
+}
+.first-section-header p,.second-section-header p,.third-section-header p,.fourth-section-header p{
+	font-family: 'Noto Serif', Arial ,sans-serif;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+
+}
+
+
+
+
+.first-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+
+
+.second-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+.third-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+.fourth-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+
+
+
+
+
+
+.first-section-header{
+    float: left;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.first-section-image{
+    float: left;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+}
+.second-section-header{
+    float: right;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.second-section-image{
+    float: right;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+}
+.third-section-header{
+    float: left;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.third-section-image{
+    float: left;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+
+}
+
+.fourth-section-header{
+    float: left;
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.fourth-section-header h2{
+	text-align: center;
+}
+
+
+
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+     
+}
+
+@media screen and (max-width: 1200px) {
+    .first-section-header,
+    .first-section-image {
+        width: 100%;
+        float: none;
+    }
+    
