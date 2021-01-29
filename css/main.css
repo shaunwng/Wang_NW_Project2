@@ -13,29 +13,26 @@
 
 html, body{ 
 	height: 100%;
+	width: 100%;
+	background-color: black;
+
 	
 }
 
-h1, h2, h3 {
-	color: white;
-}
-
-img{
-	max-height: 800px;
-	max-width: 1100px;
-}
 
 h1{
 	font-family: 'Noto Serif', Arial ,sans-serif;
 	font-size: 9rem;
 	font-weight: 700;
+	color: white;
 }
-
+ 
+    
 .content_1{
 	background-image: url(../images/beer_dispenser.jpg);
 	height: 100%;
 	position: relative;
-	opacity: .8;
+	opacity: .9;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -82,7 +79,7 @@ h1{
 	background-image: url(../images/drinking_glass.jpg);
 	height: 100%;
 	position: relative;
-	opacity: .8;
+	opacity: .9;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -109,7 +106,7 @@ h1{
 	text-shadow: 2px 2px black;
 }
 .heading_2 p{
-	padding-top: 50px;
+	padding-top: 30px;
 	line-height: 2rem;
 }
 .heading_2 p::first-letter {
@@ -118,115 +115,119 @@ h1{
 }
 
 
-.content_2,.content_3,.content_4,.content_5,.content_6{
+
+h2{
+	font-family: 'great_vibesregular', Arial ,sans-serif;
+	font-size: 3rem;
+	letter-spacing: 0.7rem;
+	font-weight: 900;
+	color: #525353;
+	text-align: center;
+	text-shadow: 2px 2px white;
+}
+.first-section-header p,.second-section-header p,.third-section-header p,.fourth-section-header p{
+	font-family: 'Noto Serif', Arial ,sans-serif;
 	color: white;
-}
-
-.text{
-	width: 100%;
-	margin: auto;
-	background-color: #000;
+	padding: 10px 10px;
+	text-align: center;
 
 }
 
 
-/*content 3*/
-.content_3,.content_4,.content_5{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+
+
+.first-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+
+
+.second-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+.third-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+.fourth-section-header p::first-letter {
+  font-size: 200%;
+  color: #fed007;
+
+} 
+
+
+
+
+
+
+.first-section-header{
+    float: left;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.first-section-image{
+    float: left;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+}
+.second-section-header{
+    float: right;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.second-section-image{
+    float: right;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+}
+.third-section-header{
+    float: left;
+    width: 65%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.third-section-image{
+    float: left;
+    padding: 3%;
+    width: 35%;
+    box-sizing: border-box;
+
+}
+
+.fourth-section-header{
+    float: left;
+    width: 100%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+.fourth-section-header h2{
 	text-align: center;
 }
 
-.content_3, .content_5{
-	background-color: #525353;
-}
-
-.text3,.text5{
-	margin-right: 50px;
-	justify-content: center;
-
-}
-.text3 h2,.text4 h2{
-	margin-top: 50px;
-	font-family: 'great_vibesregular', Arial ,sans-serif;
-	font-size: 3rem;
-	letter-spacing: 0.7rem;
-	font-weight: 900;
-
-}
-.text3 p{
-	margin:40px 40px;
-	line-height: 2rem;
-	font-family: 'Noto Serif', Arial ,sans-serif;
-}
-.text3 p::first-letter {
-  font-size: 300%;
-  color: #000;
-}
 
 
-
-
-/*centent 4*/
-
-.text4 {
-	margin-left: 20px;
-	justify-content: center;
+img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+     
 }
 
-.text4 p{
-	margin:10px 30px;
-	line-height: 1.8rem;
-	font-family: 'Noto Serif', Arial ,sans-serif;
-}
-
-.text4 p::first-letter {
-  font-size: 300%;
-  color: #525353;
-}
-/*content5*/
-.text5 h2{
-	margin-top: 80px;
-	margin-bottom: 80px;
-	margin-left: 40px;
-	font-family: 'great_vibesregular', Arial ,sans-serif;
-	font-size: 3rem;
-	letter-spacing: 0.7rem;
-	font-weight: 900;
-}
-.text5 p{
-	margin:40px 40px;
-	line-height: 2.5rem;
-	font-family: 'Noto Serif', Arial ,sans-serif;
-}
-.text5 p::first-letter {
-  font-size: 300%;
-  color: #000;
-}
-/*content6*/
-
-
-.content_6{
-	text-align: center;
-	margin: 40px 40px;
-}
-.content_6 h2{
-	margin-top: 50px;
-	font-family: 'great_vibesregular', Arial ,sans-serif;
-	font-size: 3rem;
-	letter-spacing: 0.7rem;
-	font-weight: 900;
-}
-
-.content_6 p{
-	margin:40px 40px;
-	line-height: 2.5rem;
-	font-family: 'Noto Serif', Arial ,sans-serif;
-}
-
-.content_6 p::first-letter {
-  font-size: 300%;
-  color: #525353;
-}
-
+@media screen and (max-width: 1200px) {
+    .first-section-header,
+    .first-section-image {
+        width: 100%;
+        float: none;
+    }
+    
